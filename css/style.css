@@ -288,6 +288,33 @@ nav ul li a{
   cursor: pointer;
 }
 
+/* footer section  */
+.footer-parent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 80px;
+    margin: 0 80px;
+   
+}
+ .footer-text p{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+ }
+ .menu-footer ul{
+    list-style: none;
+    
+ }
+  .menu-footer ul li{
+    margin: 19px 0;
+ }
+ .menu-footer ul li a{
+    text-decoration: none;
+    color: gray;
+ }
+ .social-links i{
+    margin: 0 8px;
+    font-size: 22px;
+ }
 
 @media screen  and (max-width: 768px){
      /* header part  */
@@ -296,8 +323,6 @@ nav ul li a{
     }
 
      .cart{
-    /* display: flex;
-    align-items: center; */
     margin-left: 0px;
     margin-right: -250px;
    
@@ -431,6 +456,13 @@ nav ul li a{
   .banner-info{
      margin-top: 40px;
   }
+
+  /* footer section  */
+  .footer-parent{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    margin: 0 20px;
+}
 
 
 }
