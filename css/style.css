@@ -318,10 +318,10 @@ nav ul li a{
 
 @media screen  and (max-width: 768px){
      /* header part  */
-    .menu{
+    /* .menu{
         display: none;
-    }
-
+    } */
+/* 
      .cart{
     margin-left: 0px;
     margin-right: -250px;
@@ -350,7 +350,7 @@ nav ul li a{
 }
 
 /* plants section  */
-.parent-box{
+/* .parent-box{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     margin-top: 50px;
@@ -359,18 +359,18 @@ nav ul li a{
     margin: 50px 0px;
     padding: auto;
     width: 170%;
-}
+} */
 
  /* plants lover section  */
-.trusted-logo img{
+/* .trusted-logo img{
     display: none;
 }
   .lover-parent{
     flex-direction: column;
     gap: 70px;
      
-  }
-   .lover-parent img{
+  } */
+   /* .lover-parent img{
     width: 580px;
     height: 600px;
     
@@ -382,16 +382,16 @@ nav ul li a{
    .lover-text h3 br {
     display: none;
     font-size: 33px;
-  }
+  } */
   
   /* latest deals section  */
-   .image-parent{
+   /* .image-parent{
     flex-direction: column;
     gap: 30px;
     margin-top: 80px;
-  }
+  } */
   
-      .deal-card{
+      /* .deal-card{
         width: 200%;
       
     }
@@ -419,9 +419,9 @@ nav ul li a{
 
   .latest-title br {
     display: none;
-  }
+  } */
 
-  .latest-title{
+  /* .latest-title{
     padding-left: 150px;
     width: 100%;
   }
@@ -429,11 +429,11 @@ nav ul li a{
    .lover-parent img{
     width: 600px;
     height: 400px;
-  }
+  } */
 
   /* join section  */
 
-    .join-banner {
+    /* .join-banner{
         width: 170%;
       height: auto;
       padding: 40px 20px;
@@ -446,9 +446,9 @@ nav ul li a{
     .input-text {
     width: 160px;
     font-size: 14px;
-  }
+  } */
 
-  .input button {
+  /* .input button {
     padding: 10px 16px;
     font-size: 14px;
   }
@@ -458,11 +458,156 @@ nav ul li a{
   }
 
   /* footer section  */
-  .footer-parent{
+  /* .footer-parent{
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 50px;
     margin: 0 20px;
+}  */
+
+
+/* Add this at the very end of your CSS */
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .cart {
+    margin: 10px 0;
+  }
+
+  header {
+    margin: 0 20px;
+  }
+
+  .parent-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fresh-text h2 {
+    font-size: 24px;
+  }
+
+  .fresh-text p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .img-flower img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .plants-section {
+    margin: 50px 20px;
+    width: 100%;
+  }
+
+  .parent-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .plants-lover-section {
+    margin: 50px 20px;
+  }
+
+  .lover-parent {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .lover-parent img,
+  .trusted-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .trusted-logo {
+    display: none;
+  }
+
+  .lover-text {
+    width: 100%;
+  }
+
+  .list-text li {
+    margin: 20px 0;
+  }
+
+  .deals-section {
+    margin: 50px 20px;
+  }
+
+  .image-parent {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .deal-card,
+  .right-card {
+    width: 100%;
+  }
+
+  .deal-card::before,
+  .right-card::before {
+    height: 100%;
+  }
+
+  .latest-title h2 {
+    font-size: 24px;
+  }
+
+  .latest-title p {
+    font-size: 14px;
+  }
+
+  .join-banner {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .banner-info h3 {
+    font-size: 24px;
+  }
+
+  .input-text {
+    width: 70%;
+    font-size: 14px;
+  }
+
+  .input button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .footer-parent {
+    grid-template-columns: 1fr;
+    margin: 20px;
+    gap: 30px;
+  }
+
+  .social-links {
+    text-align: center;
+  }
 }
+
+
+
+
+
 
 
 }
