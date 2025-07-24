@@ -2,17 +2,19 @@
     margin: 0;
     padding: 0;
 }
- body {
+
+
+  body {
     overflow-x: hidden;
+    max-width: 1400px;
+    margin: 0 auto;
   }
+
  /* header part  */
 header{
     margin: 0 80px;
    
 }
-
-
-
  
 nav{
     display: flex;
@@ -113,11 +115,11 @@ nav ul li a{
     gap: 170px;
      
   }
-  .lover-parent img{
+  /* .lover-parent img{
     width: 400px;
     height: 400px;
     
-  }
+  } */
   .lover-text h3{
     font-size: 35px;
     
@@ -145,7 +147,7 @@ nav ul li a{
 
   /* latest section */
    .deals-section{
-    margin: 100px 80px;
+    margin: 100px 30px;
    }
   .latest-title{
     text-align: center;
@@ -370,10 +372,15 @@ nav ul li a{
     gap: 70px;
      
   } 
-    .lover-parent img{
+    /* .lover-parent img{
     width: 580px;
     height: 600px;
     
+  } */
+
+  .lover-parent img{
+    width: 500px;
+    height: 400px;
   }
     .plants-lover-section{
     margin: 90px 50px;
