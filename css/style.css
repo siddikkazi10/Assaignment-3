@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body {
+    overflow-x: hidden;
+  }
+ /* header part  */
+header{
+    margin: 0 80px;
+   
+}
+
+
+
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+nav ul{
+    display: flex;
+    margin-left: 500px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 30px;
+    color: rgb(22, 22, 30);
+}
+.cart{
+    display: flex;
+}
+
+.parent-container{
+   display: flex;
+   align-items: end;
+   margin-top: 80px;
+}
+.fresh-text h2{
+    font-size: 37px;
+}
+.fresh-text p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    margin: 20px 0;
+}
+.img-flower{
+    width: 100%;
+}
+
+/* plants section  */
+.plants-section{
+    margin: 120px 80px;
+}
+.plants-title{
+    text-align: center;
+}
+.plants-title h3{
+    font-weight: bold;
+    font-size: 33px;
+}
+.plants-title h3 span{
+    color: #E95A08;
+}
+.plants-title p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 12px 0;
+}
+.parent-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 17px;
+    margin-top: 60px;
+}
+.single-box{
+    text-align: center;
+    
+}
+.single-box h5{
+    color: rgb(35, 35, 35);
+    margin-top: 8px;
+}
+.single-box h4{
+    margin: 8px 0;
+}
+.single-box button{
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 10px 90px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+  /* lover-plants section  */
+  .plants-lover-section{
+    margin: 80px;
+   
+  }
+  .lover-parent{
+    display: flex;
+    gap: 170px;
+     
+  }
+  .lover-parent img{
+    width: 400px;
+    height: 400px;
+    
+  }
+  .lover-text h3{
+    font-size: 35px;
+    
+  }
+  .lover-text{
+    width: 500px;
+  }
+  .list-text{
+     margin: 30px 20px;
+     color: rgba(0, 0, 0, 0.5);
+  }
+  .list-text li{
+    margin: 40px 0;
+    
+  }
+  .trusted-logo{
+    position: absolute;
+    top: 305%;
+    left: 28%;
+  }
+  .trusted-logo img{
+    width: 200px;
+    height: 200px;
+  }
+
+  /* latest section */
+   .deals-section{
+    margin: 100px 80px;
+   }
+  .latest-title{
+    text-align: center;
+  }
+  .latest-title h2 span{
+    color: #E95A08;
+  }
+  .latest-title h2{
+    font-size: 30px;
+  }
+  .latest-title p{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 12px 0;
+  }
+
+  
+   
+  .image-parent{
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+  }
+
+  .deal-card {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 50px;
+    }
+
+    .deal-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      
+    }
+
+    .deal-info {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+    }
+
+    .deal-info h3 {
+      font-size: 19px;
+      font-weight: 700;
+    }
+
+    .deal-info a {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      color: white;
+      text-decoration: underline;
+    }
+
+      .right-card {
+      /* flex: 2; */
+      position: relative;   
+      border-radius: 15px;
+      overflow: hidden;
+    }
+     
+      .deal-card::before{
+                    content: "";
+                    position: absolute;
+                    inset: 0;
+                    background-color: rgba(0, 0, 0, 0.4); 
+                    z-index: 0.1s;
+                    height: 99%;
+
+            }
+        .right-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.4); 
+        z-index: 0.1s;
+        height: 90%;
+       
+        }
+
+       /* join section  */
+
+      .join-banner {
+  background-image: url('/images/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner-info {
+  color: white;
+  z-index: 2;
+}
+
+.banner-info h3 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+/* Input styles */
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+   align-items: center;
+  gap: 0;
+}
+
+.input-text {
+  width: 280px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.input button {
+  padding: 10px 25px;
+  background-color: #E95A08;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+
+@media screen  and (max-width: 768px){
+     /* header part  */
+    .menu{
+        display: none;
+    }
+
+     .cart{
+    /* display: flex;
+    align-items: center; */
+    margin-left: 0px;
+    margin-right: -250px;
+   
+}
+
+  header{
+    margin: 0 20px;
+  }
+
+ .parent-container{
+   flex-direction: column-reverse;
+   margin-top: 70px;
+   width: 100%;
+}
+.img-flower img{
+    width: 180%;
+}
+.fresh-text{
+    margin-top: 50px;
+   
+}
+.fresh-text p{
+    width: 170%;
+    font-size: 19px;
+}
+
+/* plants section  */
+.parent-box{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px;
+}
+.plants-section{
+    margin: 50px 0px;
+    padding: auto;
+    width: 170%;
+}
+
+ /* plants lover section  */
+.trusted-logo img{
+    display: none;
+}
+  .lover-parent{
+    flex-direction: column;
+    gap: 70px;
+     
+  }
+   .lover-parent img{
+    width: 580px;
+    height: 600px;
+    
+  }
+    .plants-lover-section{
+    margin: 90px 50px;
+   
+  }
+   .lover-text h3 br {
+    display: none;
+    font-size: 33px;
+  }
+  
+  /* latest deals section  */
+   .image-parent{
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+  }
+  
+      .deal-card{
+        width: 200%;
+      
+    }
+    .right-card{
+           width: 200%;
+    }
+      .right-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.4); 
+        z-index: 0.1s;
+        height: 99%;
+       
+        }
+   
+
+  .latest-title h2 {
+    font-size: 24px;
+  }
+
+  .latest-title p {
+    font-size: 14px;
+  }
+
+  .latest-title br {
+    display: none;
+  }
+
+  .latest-title{
+    padding-left: 150px;
+    width: 100%;
+  }
+  
+   .lover-parent img{
+    width: 600px;
+    height: 400px;
+  }
+
+  /* join section  */
+
+    .join-banner {
+        width: 170%;
+      height: auto;
+      padding: 40px 20px;
+  }
+
+  .banner-info h3 {
+    font-size: 24px;
+  }
+
+    .input-text {
+    width: 160px;
+    font-size: 14px;
+  }
+
+  .input button {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .banner-info{
+     margin-top: 40px;
+  }
+
+
+}
