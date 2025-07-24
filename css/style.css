@@ -238,17 +238,17 @@ nav ul li a{
        /* join section  */
 
       .join-banner {
-  background-image: url('/images/news-letter-bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 300px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  text-align: center;
+            background-image: url('../images/news-letter-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 300px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
 }
 
 .banner-info {
@@ -358,7 +358,7 @@ nav ul li a{
     margin-top: 50px;
 }
 .plants-section{
-    margin: 50px 0px;
+    margin: 50px 20px;
     padding: auto;
     width: 170%;
 }
