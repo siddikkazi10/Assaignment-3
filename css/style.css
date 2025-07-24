@@ -137,8 +137,8 @@ nav ul li a{
   }
   .trusted-logo{
     position: absolute;
-    top: 305%;
-    left: 28%;
+    top: -85px;
+    right: -58px;
   }
   .trusted-logo img{
     width: 200px;
